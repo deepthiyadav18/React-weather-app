@@ -1,7 +1,7 @@
 import { use, useState } from "react";
 import React from 'react'
 import  './Weather.css'
-const API_KEY = "41cbdfb2c95e1ad1668b93b74623fd73";
+const API_KEY = <API_KEY>;
 function Weather() {
     const [city, setCity] = useState("");
     const [weather, setWeather] = useState(null);
