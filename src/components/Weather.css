@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(135deg, #c2e9fb, #a1c4fd); /* Pastel purple-blue */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .weather-container {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 500px;
+    color: #4b4b4b; /* Soft dark for better contrast */
+    backdrop-filter: blur(10px);
+    gap:10px;
+  }
+  
+ 
+  .search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 15px;
+    margin: auto;
+  }
+  
+  .search-box input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #d0c7ff; /* Light pastel purple border */
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    background: #f6f6ff; /* Light pastel background */
+    color: #333;
+  }
+  
+  .search-box button {
+    padding: 10px 15px;
+    background: #a29bfe; /* Pastel purple */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+  }  
+  .weather-info{
+    padding-top:20px;
+  }
