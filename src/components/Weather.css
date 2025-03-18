@@ -58,3 +58,7 @@ body {
   .weather-info{
     padding-top:20px;
   }
+  .weather-icon{
+    height:150px;
+    width:150px;
+  }
